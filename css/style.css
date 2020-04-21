@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@700&family=Roboto:wght@400;500;700&display=swap');
+
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    background: url("../img/backgroud-desktop-font-cottonbro2.jpg") no-repeat;
+    background-size: 100%;
+    
+}
+::-webkit-scrollbar {
+    width: 0px;    
+} 
+.doubts{  
+    font-size: 20px; 
+    border-radius: 5em;
+    background: #fff;
+    opacity: .8;
+    padding: 5px 15px;
+    color: #000;
+    font-weight: 700;
+    /* border: solid 1px red;    */
+    transition: color .2s;
+    float: right;
+    margin:20px;
+}
+a{
+    text-decoration: none !important;
+    transition: color .2;
+}
+a :hover{
+    color:#1D1A15;
+}
+
+header{
+    color: #fff;
+    text-align: center;
+    margin-top: 38px;
+}
+header h1{
+    font-family: 'Muli', sans-serif;
+    font-size: 40px;
+}
+header{
+    font-size: 24px;
+}
+.content{
+    height: 850px;
+    text-align: center;   
+}
+.content .phrases{
+    margin-top: 0px;
+    font-size:35px;
+    color:#fff;
+}
+
+footer{     
+    background-color: #1D1A15;  
+    transition: color 0.2s;    
+    
+}
+footer :hover{    
+    font-weight: 800; 
+    color: #fff;
+    margin-bottom: 0;
+}
+footer p{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0px !important;
+}
+
+footer p a{   
+    text-decoration: none !important;
+    color: #fff;
+}
+footer p a :hover{
+    text-decoration: none;
+}
+
+/*-------------- CSS changeable content --------------  */
+
+#video-tutorial{
+    display: flex;
+    margin: 51px auto 37px auto;
+}
+
+.btn-action{
+
+    background-color: #EC6E3E;
+    width:229px ;
+    height: 69px;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 8px !important;
+    font-size: 24px;
+    font-weight: 500;
+    transition: background-color .5s ;
+    margin-bottom: 37px;
+}
+.btn-action:hover{
+    background-color: rgb(236, 82, 21);    
+  
+}
+#title-assets{
+    color: rgb(44, 42, 42);
+ }
+
+.download-assets div{
+    width: 300px;
+    height:200px;     
+}
+
+.download-assets div section{
+    margin: 0;    
+}
+.download-assets section{    
+    border: solid thin transparent;    
+}
+.download-assets div section h2{
+    margin: 135px auto 28px auto;  
+    color:#1D1A15;
+    transition: color .5s;
+    transition: font-size .5s;
+}
+.download-assets div section h2:hover{
+    font-size:38px ;
+}
+
+.download-assets #adult-mold {   
+    background:  url(../img/molde-adulto.jpg) no-repeat center ;    
+    background-size: 90%;
+   
+    
+}
+.download-assets #child-mold {   
+    background: url(../img/molde-infantil--@insungyoon-1.jpg)  no-repeat center ;
+    background-size: 90%;
+}
+.download-assets #materials-list {   
+    background: url(../img/lista-de-materiais.jpg)  no-repeat center ;
+    background-size: 90%;
+}
+
+.link-download {
+    text-decoration: none !important;
+}
+
+.content .calculator{
+    margin: 121px auto 157px auto;
+    width:744px ;
+    height:482px ;
+    text-align: left;
+    background-color: rgba(256, 256, 256, .5);
+    border-radius: 10px;
+    
+}
+.content .calculator h2{
+  
+  font-size: 50px;
+  padding-top: 40px !important;
+  padding-left: 25px;
+  margin-bottom: 39px;
+  
+}
+.content .calculator .form-check{
+    font-size:30px ;
+    font-weight: 700 !important;
+    margin-left: 78px;
+    margin-bottom: 17px;
+}
+.content .calculator .form-check-input{
+    font-size:30px ;
+    font-weight: 700 !important;
+}
+.content .calculator  input[type=radio] {
+    border: 0px;
+    width:2.5%;
+    height: 1em;
+    
+}
+.content .calculator #btn-calculator{
+    margin: 125px 268px auto 278px;
+    width:168px ;
+    height: 60px;
+}
+.content .calculator #btn-calculator2{
+    display: inline;
+    margin: 50px auto;
+    margin-left: 21px;
+    width:168px ;
+    height: 60px;
+}
+.content .input-amout{
+    width:404px ;
+    height: 68px;
+    margin-left: 140px;
+    
+    
+}
+
+/* Edição do placeholder */
+::-webkit-input-placeholder  { color:rgba(29, 26, 21, 0.7) !important;font-weight: 700 !important; font-size: 25px !important;}
+ input:-moz-placeholder { color:rgba(29, 26, 21, 0.7) !important; font-weight: 700 !important;font-size: 25px !important;}
+ 
+ .calculator {
+     text-align: center;
+ }
+ .content  .btn-restart{
+     color: #fff ;
+     display: flex;
+     margin: 0px;
+    }
+.content  .btn-turtorial{
+    color: #fff;    
+ }
+
+ .content .calculator p{
+     font-weight: bold;
+     font-size: 25px;
+     margin: 40px 119px 0px 50px;
+ }
+
+ .calculator #form-sucess{
+    margin-left: 175px;
+}
+
+/* Medias querys */
+@media (min-width: 1551px){
+     /* Tamanho inicial */
+     
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px)and (max-width: 1550px) {
+    
+  
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+   
+    .download-assets div section h2{
+        font-size: 24px ;     
+    }
+  
+    .download-assets div section h2:hover{
+        font-size:29px ;
+    }
+    .content .phrases{
+        margin-top: 0px;
+        font-size:30px;
+        color:#1D1A15;
+        font-weight: 500;
+    }
+    
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* .titles{
+        color: pink;
+    } */
+    .download-assets div section h2{
+        font-size: 23px ;     
+    }
+  
+    .download-assets div section h2:hover{
+        font-size:26px ;
+    }
+
+    .content .phrases{
+        margin-top: 0px;
+        font-size:30px;
+        color:#1D1A15;
+        font-weight: 500;
+    }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  
+    body{
+        background-size: 160%;
+        background-position: right;
+        
+       }
+    header h1{
+        font-size: 32px;
+    }
+    header{
+        font-size: 18px;
+    }
+    .content{
+
+        text-align: center;
+       
+    }
+    #title-assets{
+        color: #fff;
+     }
+    .content .phrases{
+        margin-top: 0px;
+        font-size:30px;
+        color:#1D1A15;
+        font-weight: 500;
+    }
+    .content .calculator{
+        margin: 121px auto 157px auto;
+        width: 460px;
+        height:320px ;
+        text-align: left;
+        background-color: rgba(256, 256, 256, .5);
+        border-radius: 10px;
+        
+    }
+    .content .calculator h2{
+        font-size: 30px;
+        padding-top: 25px !important;
+        padding-left: 20px;
+        margin-bottom: 25px;
+        
+      }
+      .content .calculator .form-check{
+          font-size:30px ;          
+          margin-left: 35px;
+          margin-bottom: 17px;
+      }
+      .content .calculator .form-check-input{
+          font-size:30px ;
+          font-weight: 700 !important;
+      }
+      .content .calculator  input[type=radio] {
+          border: 0px;
+          width:2.9%;
+          height: 1em;
+          
+      }
+      .content .calculator #btn-calculator{
+          margin: 0 auto;
+          margin-left: 155px;
+          width:168px ;
+          height: 60px;
+      }
+      .content .calculator #btn-calculator2{
+          display: inline;
+          margin: 50px auto;
+          margin-left: 21px;
+          width:168px ;
+          height: 60px;
+      }
+      .content .input-amout{
+          width:245px ;
+          height: 68px;
+          margin-left: 120px;
+          margin-top: 55px;
+          margin-bottom: 55px;
+      } 
+      .content .calculator p{
+        font-size: 18px;
+        margin: 25px 10px 0 30px;
+    }
+      .calculator #form-sucess{
+        margin-top: -25px;
+        margin-left: 30px;
+    }
+    .download-assets div{
+        margin: 10px auto;
+        width: 300px;
+        height:120px; 
+        margin-bottom: 10px;    
+    }
+    .download-assets div section h2{
+        margin: 30px auto auto auto;  
+        color:#1D1A15;
+        transition: color .5s;
+        transition: font-size .5s;
+      
+    }
+    .download-assets div section h2{
+        font-size: 22px ;     
+    }
+  
+    .download-assets div section h2:hover{
+        font-size:27px ;
+    }
+    #video-tutorial{
+        width: 380px;
+        height: 216px;
+    }
+    /* Continuar edição daqui */
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .titles{
+        color: blue;
+    }
+    body{
+        background: url(../img/backgroud-mobile-font-cottonbro2.jpg);
+    }
+    #title-assets{
+       color: #fff;
+    }
+    .content{
+        height: 710px;
+        text-align: center;   
+    }
+    .content .phrases{
+        margin-top: 0px;
+        font-size:35px;
+        color:#fff;
+        margin-bottom: 0;
+    }
+    #video-tutorial{
+        width: 295px;
+        height: 172px;
+    }
+    .download-assets div{
+        height:100px; 
+    }
+    /* inicio das edições dos blocos de calculadora */
+    .content .calculator{
+        margin: 20px auto 40px auto;
+        width: 290px;
+        height: 320px;
+        background-color: rgba(256, 256, 256, .5);
+        border-radius: 10px;        
+    }
+    .content .calculator h2{
+        font-size: 27px;
+        padding-top: 25px !important;
+        padding-left: 20px;
+        margin-bottom: 25px;        
+      }
+      .content .calculator .form-check{
+          font-size:20px ;     
+      }
+      .content .calculator  input[type=radio] {
+          border: 0px;
+          width:5%;
+          height: 1em;
+          
+      }
+      .content .calculator #btn-calculator{
+          margin: 15px auto;
+          margin-left: 75px;
+          width:150px ;
+          height: 55px;
+      }
+      .content .calculator #btn-calculator2{
+          display: inline;
+          margin: 50px auto;
+          margin-left: 2px;
+          width:120px ;
+          height: 50px;
+          font-size: 20px;
+      }
+      .content .calculator .btn-tutorial{
+          background-color: rgb(148, 62, 31);
+      }
+      .content .input-amout{
+          width:245px ;
+          height: 68px;
+          margin-left: 30px;
+          margin-top: 55px;
+          margin-bottom: 15px;
+      } 
+      .content .calculator p{
+        font-size: 15px;
+        margin: 25px 10px 0 30px;
+    }
+      .calculator #form-sucess{
+        margin-top: -25px;
+        margin-left: 30px;
+    }
+}
+
+
