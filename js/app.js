@@ -13,7 +13,7 @@ const screenCalc2View = new ScreenCalc2View('.content');
 const screenCalc2Controller = new ScreenCalc2Controller(screenCalc2View);
 
 const screenCalc3View = new ScreenCalc3View('.content');
-const screenCalc3Controller = new ScreenCalc3Controller(screenCalc3View);
+const screenCalc3Controller = new ScreenCalc3Controller(screenCalc3View); 
 
 const screenCalc4View = new ScreenCalc4View('.content');
 const screenCalc4Controller = new ScreenCalc4Controller(screenCalc4View);
@@ -73,10 +73,10 @@ function flow(){
                             }
 
                                 document.querySelector('.btn-restart').addEventListener('click', function(){
-                                    window.open('http://127.0.0.1:5500?2', '_self')                                    
+                                    window.open('https://jonathascostaalves.github.io/Caculadora-de-mascaras-caseiras/?2', '_self')                                    
                                 });
                                 document.querySelector('.btn-tutorial').addEventListener('click', function(){
-                                    window.open('http://127.0.0.1:5500', '_self')
+                                    window.open('https://jonathascostaalves.github.io/Caculadora-de-mascaras-caseiras/', '_self')
                                 });
 
                         });
